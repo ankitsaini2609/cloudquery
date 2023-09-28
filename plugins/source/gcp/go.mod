@@ -53,6 +53,7 @@ require (
 	github.com/googleapis/gax-go/v2 v2.11.0
 	github.com/grpc-ecosystem/go-grpc-middleware/v2 v2.0.0
 	github.com/iancoleman/strcase v0.2.0
+	github.com/invopop/jsonschema v0.10.0
 	github.com/julienschmidt/httprouter v1.3.0
 	github.com/mjibson/sqlfmt v0.5.0
 	github.com/rs/zerolog v1.29.1
@@ -69,6 +70,9 @@ require (
 
 // TODO: remove once all updates are merged
 replace github.com/apache/arrow/go/v14 => github.com/cloudquery/arrow/go/v14 v14.0.0-20230916001126-ffb7089245ac
+
+// https://github.com/invopop/jsonschema/pull/103
+replace github.com/invopop/jsonschema => github.com/cloudquery/jsonschema v0.0.0-20230926171440-9c0d982c4f4f
 
 require (
 	cloud.google.com/go v0.110.7 // indirect
@@ -111,7 +115,6 @@ require (
 	github.com/grpc-ecosystem/grpc-gateway v1.16.0 // indirect
 	github.com/grpc-ecosystem/grpc-gateway/v2 v2.11.3 // indirect
 	github.com/inconshreveable/mousetrap v1.1.0 // indirect
-	github.com/invopop/jsonschema v0.10.0 // indirect
 	github.com/klauspost/compress v1.16.7 // indirect
 	github.com/klauspost/cpuid/v2 v2.2.5 // indirect
 	github.com/kr/pretty v0.3.1 // indirect
