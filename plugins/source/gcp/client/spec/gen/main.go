@@ -6,8 +6,8 @@ import (
 	"path"
 	"runtime"
 
+	"github.com/cloudquery/cloudquery/plugins/source/gcp/client/spec"
 	"github.com/cloudquery/codegen/jsonschema"
-	"github.com/cloudquery/plugins/source/gcp/client/spec"
 )
 
 func main() {
