@@ -45,7 +45,6 @@ require (
 	cloud.google.com/go/websecurityscanner v1.6.1
 	cloud.google.com/go/workflows v1.11.1
 	github.com/apache/arrow/go/v14 v14.0.0-20230905030402-a526ba697d4e
-	github.com/bradleyjkemp/cupaloy/v2 v2.8.0
 	github.com/cloudquery/codegen v0.3.2
 	github.com/cloudquery/plugin-sdk/v4 v4.11.1
 	github.com/cockroachdb/cockroachdb-parser v0.0.0-20230705064001-302c9ad52e1a
@@ -73,6 +72,9 @@ replace github.com/apache/arrow/go/v14 => github.com/cloudquery/arrow/go/v14 v14
 
 // https://github.com/invopop/jsonschema/pull/103
 replace github.com/invopop/jsonschema => github.com/cloudquery/jsonschema v0.0.0-20230926171440-9c0d982c4f4f
+
+// https://github.com/cloudquery/codegen/pull/29
+replace github.com/cloudquery/codegen => github.com/cloudquery/codegen v0.3.3-0.20230928065241-2c7e0070ce1e
 
 require (
 	cloud.google.com/go v0.110.7 // indirect
