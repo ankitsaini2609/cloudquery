@@ -1,6 +1,6 @@
 module github.com/cloudquery/cloudquery/plugins/source/gcp
 
-go 1.20
+go 1.21.1
 
 require (
 	cloud.google.com/go/aiplatform v1.48.0
@@ -76,6 +76,9 @@ replace github.com/invopop/jsonschema => github.com/cloudquery/jsonschema v0.0.0
 // https://github.com/cloudquery/codegen/pull/29
 replace github.com/cloudquery/codegen => github.com/cloudquery/codegen v0.3.3-0.20230928065241-2c7e0070ce1e
 
+// https://github.com/cloudquery/plugin-sdk/pull/1254
+replace github.com/cloudquery/plugin-sdk/v4 => github.com/cloudquery/plugin-sdk/v4 v4.11.2-0.20230929044103-ad4b12c0d5da
+
 require (
 	cloud.google.com/go v0.110.7 // indirect
 	cloud.google.com/go/compute/metadata v0.2.3 // indirect
@@ -87,7 +90,7 @@ require (
 	github.com/cenkalti/backoff/v4 v4.2.1 // indirect
 	github.com/census-instrumentation/opencensus-proto v0.4.1 // indirect
 	github.com/cespare/xxhash/v2 v2.2.0 // indirect
-	github.com/cloudquery/plugin-pb-go v1.10.0 // indirect
+	github.com/cloudquery/plugin-pb-go v1.11.0 // indirect
 	github.com/cloudquery/plugin-sdk/v2 v2.7.0 // indirect
 	github.com/cncf/udpa/go v0.0.0-20220112060539-c52dc94e7fbe // indirect
 	github.com/cncf/xds/go v0.0.0-20230607035331-e9ce68804cb4 // indirect
