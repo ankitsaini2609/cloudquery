@@ -1,6 +1,6 @@
 module github.com/cloudquery/cloudquery/plugins/source/aws
 
-go 1.20
+go 1.21.1
 
 require (
 	github.com/apache/arrow/go/v14 v14.0.0-20230905030402-a526ba697d4e
@@ -158,6 +158,9 @@ replace github.com/invopop/jsonschema => github.com/cloudquery/jsonschema v0.0.0
 // https://github.com/cloudquery/codegen/pull/29
 replace github.com/cloudquery/codegen => github.com/cloudquery/codegen v0.3.3-0.20230928065241-2c7e0070ce1e
 
+// https://github.com/cloudquery/plugin-sdk/pull/1254
+replace github.com/cloudquery/plugin-sdk/v4 => github.com/cloudquery/plugin-sdk/v4 v4.11.2-0.20230929044103-ad4b12c0d5da
+
 require (
 	github.com/aws/aws-sdk-go-v2/aws/protocol/eventstream v1.4.12 // indirect
 	github.com/aws/aws-sdk-go-v2/feature/ec2/imds v1.13.8 // indirect
@@ -204,7 +207,7 @@ require (
 	github.com/blevesearch/snowballstem v0.9.0 // indirect
 	github.com/buger/jsonparser v1.1.1 // indirect
 	github.com/cenkalti/backoff/v4 v4.2.1 // indirect
-	github.com/cloudquery/plugin-pb-go v1.10.0 // indirect
+	github.com/cloudquery/plugin-pb-go v1.11.0 // indirect
 	github.com/cockroachdb/apd/v3 v3.1.0 // indirect
 	github.com/cockroachdb/errors v1.9.0 // indirect
 	github.com/cockroachdb/logtags v0.0.0-20230118201751-21c54148d20b // indirect
